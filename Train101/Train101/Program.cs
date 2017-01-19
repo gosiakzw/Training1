@@ -10,6 +10,13 @@ namespace Train101
     {
         static void Main(string[] args)
         {
+            int a = 4;
+            int b = 2;
+            Console.WriteLine(a + b);
+            Console.ReadLine();
+                }
+         
+         
         }
     }
-}
+
