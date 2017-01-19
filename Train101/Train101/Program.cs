@@ -13,6 +13,8 @@ namespace Train101
             int a = 4;
             int b = 2;
             Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
             Console.ReadLine();
                 }
          
