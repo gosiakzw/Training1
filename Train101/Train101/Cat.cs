@@ -15,7 +15,7 @@ namespace Train101
             this.name = name;
         }
 
-        public void pokaz_info()
+        public void showName()
         {
             Console.WriteLine(name);
         }

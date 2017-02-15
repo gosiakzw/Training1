@@ -11,7 +11,7 @@ namespace Train101
         static void Main(string[] args)
         {
             Cat Little = new Cat("Little Cat");
-            Little.pokaz_info();
+            Little.showName();
             Console.ReadLine();
 
 
