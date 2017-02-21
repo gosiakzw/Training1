@@ -18,12 +18,19 @@ namespace Train101
             var dateTime = new DateTime(2017, 2, 21, 12, 27, 0).AddHours(10);
             var Tekst = "anything";
             var Number = 14;
+           
+            Produkty p1 = new Produkty(150.66);
+            Cat Little = new Cat("Little Cat");
+            Little.showName();
+            BlackCat c1 = new BlackCat("Black");
+            c1.showName();
+            
             Console.WriteLine(TekstWithValue(Tekst, Number.ToString()));
-
             Console.WriteLine(NowDate());
             Console.WriteLine(NewDate(dateTime.ToString()));
             Console.WriteLine(NowDate());
             Console.ReadLine();
+           
 
 
         }
@@ -46,7 +53,23 @@ namespace Train101
         }
 
         
+        
 
+    }
+
+    class Produkty
+    {
+        private double cena;
+
+        public Produkty(double cena)
+        {
+            this.cena = cena;
+        }
+
+        public void pokazCene()
+        {
+            Console.WriteLine(cena);
+        }
     }
 }
 
