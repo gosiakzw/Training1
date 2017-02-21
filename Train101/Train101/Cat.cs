@@ -8,9 +8,9 @@ namespace Train101
 {
     class Cat
     {
-        private string name;
+        public string name;
 
-        public Cat(string name)
+        public Cat(string name)// stworzenie konstruktora, ktory pobiera jeden argument name, konstruktor musi miec taka sama nazwe, jak nazwa klasy- w tym przypadku Cat
         {
             this.name = name;
         }
