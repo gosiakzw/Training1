@@ -8,10 +8,10 @@ namespace Train102
 {
     class Pizza
     {
-        private double cena;
-        private string nazwa;
+        public double cena;
+        public string nazwa;
 
-        public void Dispaly(string nazwa, double cena)
+        public void Dispaly()
         {
             var NazwaWyswiatlana = "Pizza" + " " + nazwa + " " + "kosztuje" + " " + cena + " " + "zł";
             Console.WriteLine(NazwaWyswiatlana);

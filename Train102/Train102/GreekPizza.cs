@@ -10,7 +10,8 @@ namespace Train102
     {
         public GreekPizza()
         {
-           
+            this.cena = 10;
+            this.nazwa = "GreakPizza";
         }
     }
 }

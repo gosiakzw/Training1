@@ -23,13 +23,9 @@ namespace Train102
             Calculator podzielone = new Calculator();
             Console.WriteLine(podzielone.Iloraz(10, 2));
 
-            Pizza p1 = new Pizza();
-            GreekPizza p2 = new GreekPizza();
-            p2.Dispaly("GreakPizza", 10);
-          
+            GreekPizza p1 = new GreekPizza();
+            p1.Dispaly();
             Console.ReadLine();
-
-
         }
     }
 }
