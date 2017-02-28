@@ -22,10 +22,18 @@ namespace Train102
 
             Calculator podzielone = new Calculator();
             Console.WriteLine(podzielone.Iloraz(10, 2));
-
             GreekPizza p1 = new GreekPizza();
             p1.Dispaly();
+            DisplayValues(10, 20);
+
             Console.ReadLine();
+        }
+
+        static void DisplayValues(int a, int b)
+        {
+            Console.WriteLine("A = " + a);
+            Console.WriteLine("B = " + b);
+            Console.WriteLine("iloczyn A i B =" + a * b);
         }
     }
 }
