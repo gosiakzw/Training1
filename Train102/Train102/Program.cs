@@ -30,6 +30,14 @@ namespace Train102
             Console.WriteLine(imionka[3]);
             Console.WriteLine(imionka[4]);
 
+            string[] rodzajePizzy = {"Margarita", "Buenos Aires", "Solidna", "Wiejska", "Miejska", "Niezbyt dobra"};
+            Console.WriteLine(rodzajePizzy[0]);
+            Console.WriteLine(rodzajePizzy[1]);
+            Console.WriteLine(rodzajePizzy[2]);
+            Console.WriteLine(rodzajePizzy[3]);
+            Console.WriteLine(rodzajePizzy[4]);
+            Console.WriteLine(rodzajePizzy[5]);
+
             Calculator calc = new Calculator();
             Console.WriteLine(calc.Suma(10,8));
             Console.WriteLine(calc.Roznica(10, 5));
