@@ -32,9 +32,14 @@ namespace Train102
         }
 
 
+        public static void DisplayStatic()
+        {
+            Console.WriteLine("to jest statyczna czesc Pizzy");
+        }
 
-    
-
-      
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
